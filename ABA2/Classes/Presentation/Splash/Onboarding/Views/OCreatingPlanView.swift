@@ -43,6 +43,8 @@ final class OCreatingPlanView: OSlideView {
                 self.onNext()
             }
         }
+        
+        RequestReview.request()
     }
 }
 
